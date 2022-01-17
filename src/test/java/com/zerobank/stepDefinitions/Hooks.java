@@ -25,7 +25,6 @@ public class Hooks {
          * -save the result into byte[] array: byte[] image
          * -attach the image into the scenario html report: scenario.attach(image, "image/png", scenario.getName());
          * -if scenario fails for any reason, it will automatically take a screenshot and attach to html report
-         
          */
         if(scenario.isFailed()) {
             byte[] image = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
