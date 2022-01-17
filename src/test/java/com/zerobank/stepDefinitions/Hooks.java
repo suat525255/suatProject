@@ -8,11 +8,7 @@ import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
-/**
- * similar to TestBase.java in TestNG framework
- * We open close browsers here etc.
- *
- */
+
 public class Hooks {
 
     @Before()
